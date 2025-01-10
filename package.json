@@ -11,11 +11,17 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@types/pg": "^8.11.10",
     "esbuild": "^0.24.2",
     "esbuild-register": "^3.6.0",
     "ts-node": "^10.9.2"
   },
   "dependencies": {
-    "dgram": "^1.0.1"
+    "@types/express": "^5.0.0",
+    "dgram": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "ts.data.json": "^2.2.0"
   }
 }
